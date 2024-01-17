@@ -1,0 +1,57 @@
+dom (api pour manipuler les pages html : attributs et methodes )
+
+document.head
+document.body
+document.title
+
+document.write()
+
+document est un arbre des noeuds (node)
+
+node -> type nombre 
+
+manipulation des elements html
+
+let p = document.createElement('p')
+p.id = "val"
+p.className = "val"
+p.style.prop = "val"
+p.textContent = "text"
+p.innerHtml = "text|html";
+
+event = (click | mouseenter | ...)
+p.onevent = action;
+function action(){
+
+}
+
+append() appendChild()
+removeChild()
+repliceChild(new,old)
+
+navigation entre les elements de l'arbre
+
+parentNode
+
+childNodes
+children
+
+previousSibling
+previousElementSibling
+
+pnextSibling
+pnextElementSibling
+
+firstChild
+firstElementChild
+
+lastChild
+lastElementChild
+
+selectionnes les elements 
+
+getElmentById - getElementsByClassName - getElementsByTagName -
+querySelector('css selector')
+querySelectorAll('css selector')
+
+
